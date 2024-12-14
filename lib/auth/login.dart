@@ -41,7 +41,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     const Text(
-                      'Sign In',
+                      'Login',
                       style: TextStyle(
                         fontFamily: 'Poppins',
                         fontSize: 28,

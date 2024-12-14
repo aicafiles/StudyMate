@@ -150,6 +150,7 @@ class _AccessibilityScreenState extends State<AccessibilityScreen> {
                 ),
                 child: _buildFontSizeAdjustment(),
               ),
+              const SizedBox(height: 16),
               _buildAccessibilityOption(
                 title: 'Text-to-Speech',
                 description:

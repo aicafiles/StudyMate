@@ -36,18 +36,18 @@ class _TopicInterestScreenState extends State<TopicInterestScreen> {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   const Text(
-                    'Choose your topic interest',
+                    'Select Your Areas of Interest',
                     style: TextStyle(
                       fontFamily: 'Poppins',
-                      fontSize: 25,
+                      fontSize: 23,
                       fontWeight: FontWeight.w600,
                       color: Colors.black,
                     ),
                     textAlign: TextAlign.center,
                   ),
-                  const SizedBox(height: 20),
+                  const SizedBox(height: 10),
                   const Text(
-                    'Lorem ipsum blah blah blah, blahblah blahblahblah. Blah, Blah, Blah, Blah. Blah.',
+                    'This will help customize your learning experience and suggest the right study tools for your needs.',
                     style: TextStyle(
                       fontFamily: 'Poppins',
                       fontSize: 14,
@@ -84,7 +84,7 @@ class _TopicInterestScreenState extends State<TopicInterestScreen> {
                       ],
                     ),
                     subtitle: const Text(
-                      'Blah, Blah, Blah, Blah',
+                      'Master algebra, calculus, and geometry.',
                       style: TextStyle(
                         fontFamily: 'Poppins',
                         fontSize: 12,
@@ -125,7 +125,7 @@ class _TopicInterestScreenState extends State<TopicInterestScreen> {
                       ],
                     ),
                     subtitle: const Text(
-                      'Blah, Blah, Blah, Blah',
+                      'Learn economics and financial trends.',
                       style: TextStyle(
                         fontFamily: 'Poppins',
                         fontSize: 12,
@@ -166,7 +166,7 @@ class _TopicInterestScreenState extends State<TopicInterestScreen> {
                       ],
                     ),
                     subtitle: const Text(
-                      'Blah, Blah, Blah, Blah',
+                      'Boost grammar, vocabulary, and writing.',
                       style: TextStyle(
                         fontFamily: 'Poppins',
                         fontSize: 12,
@@ -207,7 +207,7 @@ class _TopicInterestScreenState extends State<TopicInterestScreen> {
                       ],
                     ),
                     subtitle: const Text(
-                      'Blah, Blah, Blah, Blah',
+                      'Explore cells, organisms, and ecosystems.',
                       style: TextStyle(
                         fontFamily: 'Poppins',
                         fontSize: 12,
@@ -248,7 +248,7 @@ class _TopicInterestScreenState extends State<TopicInterestScreen> {
                       ],
                     ),
                     subtitle: const Text(
-                      'Blah, Blah, Blah, Blah',
+                      'Learn physical and human geography.',
                       style: TextStyle(
                         fontFamily: 'Poppins',
                         fontSize: 12,

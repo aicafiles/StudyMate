@@ -46,7 +46,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     ? Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage('assets/images/cover_bg.jpg'),
+                      image: AssetImage('assets/images/onboarding.jpg'),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -54,7 +54,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     children: [
                       Container(
                         decoration: BoxDecoration(
-                          color: Colors.black.withOpacity(0.4),
+                          color: Colors.black.withOpacity(0.2),
                         ),
                       ),
                       Column(
@@ -68,22 +68,22 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                   "Hello and welcome here!",
                                   style: TextStyle(
                                     fontSize: 25,
-                                    color: Colors.white,
+                                    color: const Color.fromARGB(255, 19, 50, 75),
                                     fontWeight: FontWeight.bold,
                                     fontFamily: 'Poppins',
                                   ),
                                 ),
-                                SizedBox(height: 10),
+                                SizedBox(height: 12),
                                 Text(
                                   "Get an overview of how you are performing and motivate yourself to achieve even more.",
                                   textAlign: TextAlign.justify,
                                   style: TextStyle(
-                                    color: Colors.white70,
+                                    color: const Color.fromARGB(255, 19, 50, 75),
                                     fontFamily: 'Poppins',
                                     fontSize: 18,
                                   ),
                                 ),
-                                SizedBox(height: 18),
+                                SizedBox(height: 20),
                                 ElevatedButton(
                                   onPressed: () {
                                     setState(() {
@@ -91,7 +91,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                     });
                                   },
                                   style: ElevatedButton.styleFrom(
-                                    backgroundColor: Colors.blue,
+                                    backgroundColor: const Color.fromARGB(255, 60, 122, 173),
                                     shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.circular(12),
                                     ),
@@ -99,7 +99,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                   ),
                                   child: Text(
                                     "Let's Start",
-                                    style: TextStyle(fontSize: 16, fontFamily: 'Poppins'),
+                                    style: TextStyle(fontSize: 16, fontFamily: 'Poppins', color: const Color.fromARGB(255, 19, 50, 75),),
                                   ),
                                 ),
                               ],
@@ -132,7 +132,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                               children: [
                                 SizedBox(height: 20),
                                 Text(
-                                  "Find your favorite class",
+                                  "Personalized Study Tools",
                                   style: TextStyle(
                                     fontSize: 26,
                                     fontWeight: FontWeight.w600,
@@ -142,12 +142,13 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                 ),
                                 SizedBox(height: 20),
                                 Text(
-                                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
+                                  "Use a range of study tools tailored to your needs. From organizing your notes to interactive features like quizzes and flashcards, StudyMate helps you review and retain information effectively.",
                                   style: TextStyle(
                                     fontSize: 16,
                                     color: Colors.black,
                                     fontFamily: 'Poppins',
                                   ),
+                                  textAlign: TextAlign.justify,  
                                 ),
                                 SizedBox(height: 40),
                               ],
@@ -170,12 +171,13 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                 ),
                                 SizedBox(height: 20),
                                 Text(
-                                  "Monitor your learning achievements and strive to reach new goals. Stay motivated as you progress!",
+                                  "Monitor your progress and keep track of your achievements. With real - time feedback, you can see how well you're mastering the material and stay motivated to reach your learning goals.",
                                   style: TextStyle(
                                     fontSize: 16,
                                     color: Colors.black,
                                     fontFamily: 'Poppins',
                                   ),
+                                  textAlign: TextAlign.justify,
                                 ),
                                 SizedBox(height: 40),
                               ],
