@@ -360,7 +360,6 @@ class ViewFlashcardScreen extends StatefulWidget {
 
 class _ViewFlashcardScreenState extends State<ViewFlashcardScreen> {
   int _currentCardIndex = 0;
-  final bool _showTerm = false;
 
   Future<void> _refreshFlashcards() async {
     try {

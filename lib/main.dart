@@ -10,6 +10,7 @@ import 'screens/flashcards.dart';
 import 'screens/notes.dart';
 import 'screens/tests.dart';
 import 'screens/accessibility.dart';
+
 void main() {
   runApp(const MyApp());
 }

@@ -80,7 +80,7 @@ class _NotesScreenState extends State<NotesScreen> {
 
       _addNote(
         title: fileName,
-        content: content ?? 'No content generated',
+        content: content,
         date: DateTime.now().toLocal().toString().split(' ')[0],
         tags: 'General',
       );
